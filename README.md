@@ -1,18 +1,19 @@
 # HROne Backend Task
 
-This project is a backend system built using **FastAPI** and **MongoDB (Atlas)** to manage products and user orders. It includes APIs for creating and listing products and placing orders with automatic total calculation.
+This project is a backend system built using **FastAPI** and **MongoDB** to manage products and user orders. It includes APIs for creating and listing products and placing orders with automatic total calculation.
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **FastAPI**
 - **Python 3.10+**
-- **MongoDB Atlas** with `pymongo`
+- **MongoDB** with `pymongo`
 - **Uvicorn**
 - **Pydantic** for schema validation
 
-## 📁 Project Structure:
+## Project Structure:
 
 ├── config/
+│ └── __init__.py
 │ └── database.py
 ├── models/
 │ ├── orders.py
